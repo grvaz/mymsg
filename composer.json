@@ -2,6 +2,12 @@
     "name": "it_poet/mymsg",
     "description": "A simple class to use with mymsg.pw API.",
     "type": "library",
-    "license": "1.0.0",
-    "minimum-stability": "dev"    
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Itpoet\\Mymsg\\": "src/"
+        }
+    }
 }
