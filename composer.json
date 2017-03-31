@@ -7,7 +7,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "ItPoet\\Mymsg\\": "src/"
+            "ItPoet\\MyMsg\\": "src/"
         }
     }
 }
