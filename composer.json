@@ -1,5 +1,5 @@
 {
-    "name": "it_poet/mymsg",
+    "name": "it-poet/mymsg",
     "description": "A simple class to use with mymsg.pw API.",
     "type": "library",
     "license": "MIT",
@@ -7,7 +7,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Itpoet\\Mymsg\\": "src/"
+            "ItPoet\\Mymsg\\": "src/"
         }
     }
 }
