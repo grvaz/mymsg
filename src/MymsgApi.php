@@ -1,6 +1,6 @@
 <?php
 
-namespace Itpoet\Mymsg;
+namespace ItPoet\Mymsg;
 
 class MymsgApi{
 
