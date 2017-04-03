@@ -16,6 +16,11 @@ class MyMsgApi{
     public $email2 = '';
     public $telegram = '';
 
+    /**
+     * Send to registered mymsg.pw user.
+     *
+     * @return bool|string
+     */
     public function sendToUser()
     {
         $url = $this->protocol.'://mymsg.pw/api/v1/sendtouser';
@@ -27,6 +32,11 @@ class MyMsgApi{
         return $this->send($url, $params);
     }
 
+    /**
+     * Send to any email, telegram.
+     *
+     * @return bool|string
+     */
     public function sendTo()
     {
         $url = $this->protocol.'://mymsg.pw/api/v1/sendto';
@@ -43,6 +53,11 @@ class MyMsgApi{
         return $this->send($url, $params);
     }
 
+    /**
+     * @param $url
+     * @param $params
+     * @return bool|string
+     */
     private function send($url, $params)
     {
         $result = @file_get_contents($url, false, stream_context_create(array(
