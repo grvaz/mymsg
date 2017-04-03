@@ -1,8 +1,8 @@
 <?php
 
-namespace ItPoet\MyMsg;
+namespace ItPoet\Mymsg;
 
-class MyMsgApi{
+class MymsgApi{
 
     public $apiKey = null;
     public $protocol = 'https';
